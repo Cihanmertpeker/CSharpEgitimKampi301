@@ -68,6 +68,7 @@
             this.btnList.TabIndex = 2;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // dataGridView1
             // 
@@ -82,9 +83,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 13);
+            this.label2.Size = new System.Drawing.Size(83, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Kategory Durum:";
+            this.label2.Text = "Kategori Durum:";
             // 
             // txtCategoryName
             // 
@@ -132,6 +133,7 @@
             this.btnGetById.TabIndex = 10;
             this.btnGetById.Text = "ID\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // btnUpdate
             // 
@@ -141,6 +143,7 @@
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -150,6 +153,7 @@
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -159,6 +163,7 @@
             this.btnAdd.TabIndex = 13;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // FrmCategory
             // 

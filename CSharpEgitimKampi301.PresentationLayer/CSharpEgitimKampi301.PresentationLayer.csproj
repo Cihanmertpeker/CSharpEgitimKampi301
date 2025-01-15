@@ -91,6 +91,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSharpEgitimKampi301.BusinessLayer\CSharpEgitimKampi301.BusinessLayer.csproj">
+      <Project>{8449F444-0879-4662-A0CC-EBF823113CF5}</Project>
+      <Name>CSharpEgitimKampi301.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitimKampi301.DataAccessLayer\CSharpEgitimKampi301.DataAccessLayer.csproj">
+      <Project>{0E498DD9-E24D-4DFF-92BD-46C67A7CFDD6}</Project>
+      <Name>CSharpEgitimKampi301.DataAccessLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharpEgitimKampi301.EntityLayer\CSharpEgitimKampi301.EntityLayer.csproj">
       <Project>{2b730a54-71cf-4ea7-be91-4920494e7822}</Project>
       <Name>CSharpEgitimKampi301.EntityLayer</Name>
