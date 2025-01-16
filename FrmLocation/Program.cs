@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpEgitimKampi301.PresentationLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace FrmLocation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLocation());
+            Application.Run(new FrmProduct());
         }
     }
 }

@@ -90,6 +90,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpEgitimKampi301.EFProject\CSharpEgitimKampi301.EFProject.csproj">
+      <Project>{1C4D1EE5-65B2-473D-8ABE-32B1C98C46CF}</Project>
+      <Name>CSharpEgitimKampi301.EFProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitimKampi301.PresentationLayer\CSharpEgitimKampi301.PresentationLayer.csproj">
+      <Project>{D44480D2-F6C8-4DA8-875E-896520094AE0}</Project>
+      <Name>CSharpEgitimKampi301.PresentationLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
